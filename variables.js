@@ -54,9 +54,9 @@ var y = 4
 y **= x
 console.log(y)
 
-var text1 = "Det er fint"
-var text2 = "ute i dag"
-console.log(text1 + ' ', text2)
+//var text1 = "Det er fint"
+//var text2 = "ute i dag"
+//console.log(text1 + ' ', text2)
 
 var text1, text2 = ("Det er fint", "ute i dag")
 console.log(text1 + ' ', text2)
