@@ -25,9 +25,53 @@ console.log(car)
 car.color = "red"
 console.log(car.color)
 
-var description = ""
+var description = " "
 var person = {firstname:"Isa", lastname:"Ibisa", age:52}
-console.log(description, person)
+for (var x in person) {
+  description += person[x] + " "
+  console.log(description)
+}
+
+var z = 299090
+var y = 35345
+var time = y + z
+console.log(time)
+
+var x = 1003
+var y = 29933
+y *= x
+console.log(y)
+
+var x = 1003
+var y = 29933
+y %= x
+console.log(y)
+y **= x
+console.log(y)
+
+var x = 12
+var y = 4
+y **= x
+console.log(y)
+
+var text1 = "Det er fint"
+var text2 = "ute i dag"
+console.log(text1 + ' ', text2)
+
+var text1, text2 = ("Det er fint", "ute i dag")
+console.log(text1 + ' ', text2)
+
+var x = 5 + 5
+var y = "5" + 5
+var z = "Jesus" + 5
+console.log(x, y, z)
+
+let flower = 'rose'
+let tree = 'maple'
+console.log(flower, tree)
+
+
+
 
 
 
