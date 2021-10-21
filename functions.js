@@ -25,3 +25,5 @@ var bilby = bye('toyota', 'amsterdam')
 console.log(bilby)
 
 
+const car = ["Toyota", "Volvo", "BMW"]
+const town = ["Amsterdam", "Berlin", "Paris"]
