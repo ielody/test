@@ -15,3 +15,13 @@ function helloWorld() {
 }
 helloWorld()
 
+
+var hello = 'nisse'
+function bye(car, town) {
+  return [car, town]
+}
+console.log(hello)
+var bilby = bye('toyota', 'amsterdam')
+console.log(bilby)
+
+
