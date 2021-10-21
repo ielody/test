@@ -1,16 +1,17 @@
-/*function getFlower(thing) {
+function getFlower(thing) {
  return thing.toUpperCase()
 }
-getFlower("blomst")
-console.log(thing)*/
+var result = getFlower("blomst")
+console.log(result)
 
-/*function getNumber(3, 4) {
+function getNumber(a, b) {
   return a * b
 }
-console.log(a, b)
+var number = getNumber(3, 4)
+console.log(number)
 
 function helloWorld() {
-  alert("Hello World!")
+  console.log("Hello World!")
 }
-helloWorld()*/
+helloWorld()
 
