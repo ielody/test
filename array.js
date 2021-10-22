@@ -16,14 +16,21 @@ console.log(array)
 //splice add
 array.splice(4, 5, 'pain au chocolat', 'cookies')
 console.log(array)
-//split
 
+//split string
+var anArray = [1, 2, 3, 4, 5]
+let myString = anArray.toString()
+let kulArray = myString.split(",", 2)
+console.log(kulArray)
 
+var a = { hei: 'nei', hadet: 'ja' }
+// Legger a inn i en ny variabel
+var b = a
+// Endrer på b
+b.hei = 'kanskje'
+console.log(a)
 
-
-
-
-
-
-
+var longArray = [1,2,3,4,5,6,7,8,9,10]
+var toSlice = longArray.slice(0, 5)
+console.log(toSlice)
 
