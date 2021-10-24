@@ -71,8 +71,14 @@ let tree = 'maple'
 console.log(flower, tree)
 
 
+const constant = 'constant'
+console.log({ constant })
 
+// Not allowed
+// constant = 'change'
 
+var a = 2
+a = 4
 
-
-
+let c = 6
+c = 8
