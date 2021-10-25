@@ -123,7 +123,7 @@ const numbers = [23, 43, 55]
 const numletters = letters.concat(numbers)
 console.log(numletters)*/
 
-const num1 = [[1]]
+/*const num1 = [[1]]
 const num2 = [2, [3]]
 
 const numbers1 = num1.concat(num2)
@@ -136,4 +136,66 @@ num1[0].push(67, 'hai')
 //console.log(numbers1)
 
 num1[0].push('iee', 'yoshi')
-console.log(numbers1)
+console.log(numbers1)*/
+
+//copyWithin
+/*const array1 = ['eple', 'appelsin', 'fersken', 'banan', 'mango']
+console.log(array1.copyWithin(0,2,4))
+console.log(array1.copyWithin(1,2,3))
+console.log(array1.copyWithin(-2,-3,-1))
+
+//key/value pairs
+const arrayA = ['a', 'b', 'c']
+const iterator1 = arrayA.entries()
+console.log(iterator1.next().value)
+
+const a = ['oslo','bergen','stavanger']
+for (const [index, element] of a.entries())
+  console.log(index, element)
+
+var b = ['gresshoppe','champagne','mynte']
+var iterator = b.entries()
+
+for (let e of iterator) {
+  console.log(e)
+}*/
+
+//every- test each element
+/*const isBelowThreshold = (currentValue) => currentValue < 98
+const array2 = [1, 30, 15, 93, 95, 83]
+console.log(array2.every(isBelowThreshold))
+
+const isAboveLimit = (currentValue) => currentValue > 111
+const array3 = [300, 3, 150, 13, 95, 83]
+console.log(array2.every(isAboveLimit))*/
+
+
+let frukt = ['eple', 'appelsin', 'fersken', 'banan', 'mango']
+console.log(frukt.length)
+
+//access items using index pos.
+/*let first = frukt[0]
+let last = frukt[frukt.length - 1]
+*/
+
+let nyLengde = frukt.push('mandarin')
+console.log(nyLengde)
+
+let last1 = frukt.pop('mandarin')
+console.log(frukt)
+console.log(last1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
