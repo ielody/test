@@ -170,20 +170,30 @@ const array3 = [300, 3, 150, 13, 95, 83]
 console.log(array2.every(isAboveLimit))*/
 
 
-let frukt = ['eple', 'appelsin', 'fersken', 'banan', 'mango']
+/*let frukt = ['eple', 'appelsin', 'fersken', 'banan', 'mango']
 console.log(frukt.length)
-
-//access items using index pos.
-/*let first = frukt[0]
-let last = frukt[frukt.length - 1]
-*/
 
 let nyLengde = frukt.push('mandarin')
 console.log(nyLengde)
 
 let last1 = frukt.pop('mandarin')
 console.log(frukt)
-console.log(last1)
+console.log(last1)*/
+
+//static value,fill(value,start,end)
+const array1 = [1, 2, 3, 4]
+console.log(array1.fill(0, 2, 4))
+console.log(array1.fill(5,1))
+console.log(array1.fill(3,0,4))
+console.log(array1.fill(9))
+
+//filter (creates a new array)
+const words = ['murial', 'museum', 'restaurant', 'cafe', 'bar']
+const result = words.filter(word => word.length >= 5)
+console.log(result)
+
+
+
 
 
 
