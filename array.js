@@ -215,24 +215,25 @@ console.log(player.find(is27))
 const array3 = [5,10,15,55,51]
 const isLargeNumber = (element) => element > 50
 console.log(array3.findIndex(isLargeNumber))
+//finner index av 55
 
+//flat(depth)
+const array4 = [0,1,2,[3,4]]
+console.log(array4.flat())
+const array5 = [0,1,2[[[3,4]]]]
+console.log(array5.flat(2))
 
+//forEach()executes function(sync)for each element on a loop
 
+const array6 = ['a', 'b', 'c']
+array6.forEach(z => console.log(z))
 
+const colors = ['blue', 'green', 'white', 'purple']
+function iterate(item) {
+  console.log(item)
+}
+colors.forEach(iterate)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Array.from()
+console.log(Array.from('bursdagskake'))
+console.log(Array.from([1,2,3,4], y => y + y))
