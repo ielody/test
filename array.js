@@ -192,6 +192,33 @@ const words = ['murial', 'museum', 'restaurant', 'cafe', 'bar']
 const result = words.filter(word => word.length >= 5)
 console.log(result)
 
+//find - first match
+const sports = ['basketball', 'football', 'boxing', 'golf', 'chess', 'rugby']
+const found = sports.find(word => word.length >= 8)
+console.log(found)
+
+const lotto = [2,6,7,43,24,56,]
+const lottoresult = lotto.find(element => element > 47)
+console.log(lottoresult)
+
+const player = [
+{name: 'Ella', age: 27},
+{name: 'Bella', age: 36},
+{name: 'Isabella', age: 27}
+]
+function is27(player) {
+  return player.age === 27
+}
+console.log(player.find(is27))
+
+//findIndex
+const array3 = [5,10,15,55,51]
+const isLargeNumber = (element) => element > 50
+console.log(array3.findIndex(isLargeNumber))
+
+
+
+
 
 
 
